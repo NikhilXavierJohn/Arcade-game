@@ -1,5 +1,5 @@
 # arcade_game_demo
-game demo using arcade module in python
+game demo using arcade module in python<br>
 --><b>Draw a filled in triangle.</b><br>
 -->arcade.draw_triangle_filled(x1: float, y1: float, x2: float, y2: float, x3: float, y3: float, color: Union[Tuple[int, int, int], List[int], Tuple[int, int, int, int]])<br>
 
