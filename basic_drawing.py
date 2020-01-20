@@ -1,4 +1,5 @@
 import arcade
+import keyboard_control
 SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 600
 SCREEN_TITLE = "Drawing With Functions Example"
@@ -15,6 +16,7 @@ def draw_pine_tree(x, y):
     arcade.draw_lrtb_rectangle_filled(x + 30, x + 50, y - 100, y - 140,arcade.color.DARK_BROWN)
 
 def main():
+    
     arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
     arcade.start_render()
     draw_background()
@@ -24,6 +26,8 @@ def main():
     draw_bird(470, 550)
     arcade.finish_render()
     arcade.run()
-    
+    # keyboard_control.MyGame(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+    # arcade.run()
+
 if __name__ == "__main__":
     main()

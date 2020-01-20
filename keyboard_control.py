@@ -83,10 +83,10 @@ class MyGame(arcade.Window):
             self.ball.change_y = 0
 
 
-def main():
-    MyGame(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
-    arcade.run()
+# def main():
+#     MyGame(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+#     arcade.run()
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
