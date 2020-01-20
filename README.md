@@ -1,8 +1,8 @@
 # arcade_game_demo
 game demo using arcade module in python
+--><b>Draw a filled in triangle.</b><br>
+-->arcade.draw_triangle_filled(x1: float, y1: float, x2: float, y2: float, x3: float, y3: float, color: Union[Tuple[int, int, int], List[int], Tuple[int, int, int, int]])<br>
 
---><b>arcade.draw_triangle_filled(x1: float, y1: float, x2: float, y2: float, x3: float, y3: float, color: Union[Tuple[int, int, int], List[int], Tuple[int, int, int, int]])<b><br>
--->Draw a filled in triangle.<br>
 Parameters<br>
 x1 (float) – x value of first coordinate.<br>
 y1 (float) – y value of first coordinate.<br>
@@ -12,8 +12,8 @@ x3 (float) – x value of third coordinate.<br>
 y3 (float) – y value of third coordinate.<br>
 color (Color) – Color of triangle.<br>
 
+--><b>Draw a rectangle by specifying left, right, top, and bottom edges.</b><br>
 -->arcade.draw_lrtb_rectangle_filled(left: float, right: float, top: float, bottom: float, color: Union[Tuple[int, int, int], List[int], Tuple[int, int, int, int]])<br>
--->Draw a rectangle by specifying left, right, top, and bottom edges.<br>
 Parameters<br>
 left (float) – The x coordinate of the left edge of the rectangle.<br>
 right (float) – The x coordinate of the right edge of the rectangle.<br>
@@ -21,8 +21,8 @@ top (float) – The y coordinate of the top of the rectangle.<br>
 bottom (float) – The y coordinate of the rectangle bottom.<br>
 color (Color) – The color of the rectangle.<br>
 
+--><b>Draw the outside edge of an arc. Useful for drawing curved lines.</b><br>
 -->arcade.draw_arc_outline(center_x: float, center_y: float, width: float, height: float, color: Union[Tuple[int, int, int], List[int], Tuple[int, int, int, int]], start_angle: float, end_angle: float, border_width: float = 1, tilt_angle: float = 0, num_segments: int = 128)[source]<br>
--->Draw the outside edge of an arc. Useful for drawing curved lines.<br>
 Parameters<br>
 center_x (float) – x position that is the center of the arc.<br>
 center_y (float) – y position that is the center of the arc.<br>
